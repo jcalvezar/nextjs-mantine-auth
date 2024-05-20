@@ -1,6 +1,6 @@
 # Mantine Next.js template
 
-This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
+This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/) and [NextAuth](https://authjs.dev/)
 If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).
 
 ## Features
@@ -35,3 +35,12 @@ This template comes with the following features:
 - `storybook` – starts storybook dev server
 - `storybook:build` – build production storybook bundle to `storybook-static`
 - `prettier:write` – formats all files with Prettier
+
+## First time steps
+
+After cloning the application you have to follow the next steps:
+
+    npm install
+    npx auth secret
+
+...create a .env file and copy/paste the secret
